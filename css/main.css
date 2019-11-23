@@ -23,10 +23,12 @@ body {
 
 header {
   background-color: #18294f;
-  padding: 5px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-h1 {
+header h1 {
   text-align: center;
   color: #fff;
   font-size: 2rem;
@@ -36,6 +38,8 @@ h1 {
 
 nav {
   margin: 0;
+  padding-top: .5em;
+  justify-content: center;
 }
 
 nav ul {
@@ -55,9 +59,11 @@ nav a {
   text-decoration: none;
   padding: .5em .75rem;
   display: block;
+  align-items: center;
+  white-space: nowrap;
 }
 
-a:hover {
+nav a:hover {
   color: #fff;
   background-color: #6c8fe0;
   padding: .5em .75rem;
@@ -123,8 +129,7 @@ a:hover {
 @media only screen and (min-width: 90em) {
 
   html {
-    line-height: 1.5;
-    font-size: 120%;
+    font-size: 130%;
   }
 
   header {
